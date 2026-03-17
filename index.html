@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <!-- Basic setup for the page -->
+    <!-- Basic page setup -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jeremiah Dom-Ogbonna | Home</title>
 
-    <!-- Link to the main CSS file -->
+    <!-- Main stylesheet -->
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
     <!-- 
-        Header section:
-        This stays at the top of the page and contains the main site navigation.
+        Header section with consistent navigation.
+        This stays the same across all pages to keep the site easy to use.
     -->
     <header>
         <nav class="navbar">
-            <!-- Website / portfolio name -->
             <h1 class="logo">Jeremiah Dom-Ogbonna</h1>
 
-            <!-- Main navigation links -->
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="projects.html">Projects</a></li>
@@ -32,32 +32,38 @@
     </header>
 
     <!-- 
-        Main page content:
-        This is the main introduction for the portfolio homepage.
+        Hero section:
+        This is now the main focus of the homepage.
+        It introduces Jeremiah and gives users two clear actions.
     -->
     <main>
-        <section class="content-box">
-            <h2>Welcome to My Portfolio</h2>
+        <section class="hero-section">
+            <div class="hero-content">
+                <img src="images/jeremiah.jpg" alt="Portrait of Jeremiah Dom-Ogbonna" class="profile-image">
 
-            <p>
-                Hi, my name is Jeremiah Dom-Ogbonna and this is my portfolio website.
-                I am a Computer Science student and this site will be used to show my
-                projects, my contact page, my video demonstration, and my report for
-                this assignment.
-            </p>
+                <h2>Hello, I'm Jeremiah</h2>
 
-            <p>
-                This is where people will be able to view my projects and learn about my skills.
-            </p>
+                <p class="hero-text">
+                    I'm a Computer Science student passionate about building modern responsive websites and interactive
+                    applications. This portfolio
+                    shows my progress, my projects and the work I have been developing.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="projects.html" class="primary-button">View My Projects</a>
+                    <a href="contact.html" class="secondary-button">Contact Me</a>
+                </div>
+            </div>
         </section>
     </main>
 
-    <!-- Footer shown at the bottom of the page -->
+    <!-- Footer -->
     <footer>
         <p>&copy; 2026 Jeremiah Dom-Ogbonna</p>
     </footer>
 
-    <!-- Link to JavaScript file -->
+    <!-- JavaScript file -->
     <script src="js/script.js"></script>
 </body>
+
 </html>
