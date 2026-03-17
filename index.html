@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <!-- Basic page setup -->
     <meta charset="UTF-8">
@@ -10,12 +9,12 @@
     <!-- Main stylesheet -->
     <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
 
     <!-- 
-        Header section with consistent navigation.
-        This stays the same across all pages to keep the site easy to use.
+        Header section:
+        This contains the site logo and the main navigation links.
+        Keeping this the same across all pages makes the site easier to use.
     -->
     <header>
         <nav class="navbar">
@@ -31,28 +30,101 @@
         </nav>
     </header>
 
-    <!-- 
-        Hero section:
-        This is now the main focus of the homepage.
-        It introduces Jeremiah and gives users two clear actions.
-    -->
     <main>
+        <!-- 
+            Hero section:
+            This is the first thing users see when they visit the homepage.
+            It introduces Jeremiah and gives the user two main actions.
+        -->
         <section class="hero-section">
             <div class="hero-content">
-                <img src="images/jeremiah.jpg" alt="Portrait of Jeremiah Dom-Ogbonna" class="profile-image">
+                <img 
+                    src="images/jeremiah.jpg" 
+                    alt="Portrait of Jeremiah Dom-Ogbonna"
+                    class="profile-image"
+                >
 
                 <h2>Hello, I'm Jeremiah</h2>
 
                 <p class="hero-text">
-                    I'm a Computer Science student passionate about building modern responsive websites and interactive
-                    applications. This portfolio
-                    shows my progress, my projects and the work I have been developing.
+                    I am a Computer Science student who enjoys web development,
+                    programming and creating modern digital experiences.
+                    This portfolio is where I present my work and development progress.
                 </p>
 
                 <div class="hero-buttons">
                     <a href="projects.html" class="primary-button">View My Projects</a>
                     <a href="contact.html" class="secondary-button">Contact Me</a>
                 </div>
+            </div>
+        </section>
+
+        <!-- 
+            About section:
+            This gives visitors more background about Jeremiah, his interests,
+            and the purpose of the website.
+        -->
+        <section class="about-section">
+            <div class="about-text">
+                <h2>About Me</h2>
+
+                <p>
+                    My name is Jeremiah Dom-Ogbonna and I am currently studying
+                    Computer Science. I have been developing my skills in HTML, CSS
+                    and JavaScript, and I enjoy learning how websites are designed
+                    and built from the ground up.
+                </p>
+
+                <p>
+                    I am especially interested in front-end development because I like
+                    the combination of design and coding. I enjoy taking an idea and
+                    turning it into something interactive, structured and easy to use.
+                </p>
+
+                <p>
+                    This portfolio website is being developed to showcase my work,
+                    document my progress and reflect the skills I have been building
+                    throughout the module.
+                </p>
+            </div>
+        </section>
+
+        <!-- 
+            Skills section:
+            This highlights the main skills Jeremiah wants to present.
+            Each skill is placed inside a card for a cleaner layout.
+        -->
+        <section class="skills-section">
+            <h2>My Skills</h2>
+
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <h3>HTML5</h3>
+                    <p>
+                        Creating semantic, accessible and well structured websites.
+                    </p>
+                </article>
+
+                <article class="skill-card">
+                    <h3>CSS3</h3>
+                    <p>
+                        Designing responsive layouts using Flexbox, Grid and animations.
+                    </p>
+                </article>
+
+                <article class="skill-card">
+                    <h3>JavaScript</h3>
+                    <p>
+                        Adding interactivity, form validation and dynamic website behaviour.
+                    </p>
+                </article>
+
+                <article class="skill-card">
+                    <h3>Responsive Design</h3>
+                    <p>
+                        Building websites that work across mobile, tablet and desktop devices.
+                    </p>
+                </article>
             </div>
         </section>
     </main>
@@ -65,5 +137,4 @@
     <!-- JavaScript file -->
     <script src="js/script.js"></script>
 </body>
-
 </html>

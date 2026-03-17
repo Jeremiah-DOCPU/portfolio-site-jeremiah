@@ -11,4 +11,4 @@
     - animations
 */
 
-console.log("Version 3 loaded successfully.");
+console.log("Version 4 loaded successfully.");
