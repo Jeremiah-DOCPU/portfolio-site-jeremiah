@@ -1,3 +1,164 @@
+/*
+    ============================================
+    GLOBAL RESET
+    ============================================
+
+    This removes the browser's default margin
+    and padding so the website starts from a
+    clean base.
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+    ============================================
+    BODY STYLING
+    ============================================
+
+    These styles apply to the whole page.
+    They set the font, text colour, background
+    colour and line spacing.
+*/
+
 body {
-font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #222222;
+    line-height: 1.6;
+}
+
+/*
+    ============================================
+    HEADER
+    ============================================
+
+    The header contains the navigation bar.
+    A dark background is used to make the nav
+    stand out clearly.
+*/
+
+header {
+    background-color: #1f2937;
+    color: #ffffff;
+    padding: 1rem 2rem;
+}
+
+/*
+    ============================================
+    NAVIGATION BAR
+    ============================================
+
+    Flexbox is used here to place the site name
+    on one side and the links on the other.
+*/
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*
+    Portfolio name / logo styling
+*/
+
+.logo {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+/*
+    Navigation list styling
+    The bullet points are removed and the links
+    are placed side by side.
+*/
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.2rem;
+}
+
+/*
+    Navigation link appearance
+*/
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*
+    Simple hover effect to make the links feel
+    a little more interactive
+*/
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/*
+    ============================================
+    MAIN CONTENT AREA
+    ============================================
+
+    Adds spacing around the main content so it
+    does not touch the edges of the page.
+*/
+
+main {
+    padding: 2rem;
+}
+
+/*
+    Reusable white content box
+    This is used on each page to keep content
+    neat and readable.
+*/
+
+.content-box {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/*
+    Headings inside content sections
+*/
+
+.content-box h2 {
+    margin-bottom: 1rem;
+}
+
+/*
+    Paragraph spacing inside content sections
+*/
+
+.content-box p {
+    margin-bottom: 1rem;
+}
+
+/*
+    ============================================
+    FOOTER
+    ============================================
+
+    The footer uses the same dark colour as the
+    header to keep the design consistent.
+*/
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    background-color: #1f2937;
+    color: #ffffff;
 }
