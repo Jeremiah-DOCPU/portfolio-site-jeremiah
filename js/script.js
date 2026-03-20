@@ -57,7 +57,7 @@ ${message}`
 
         /*
             Open the user's default email application.
-            I need to replace the email address below with my real email address.
+            I need to replace the email address below with my real email address in the future.
         */
         window.location.href =
             `mailto:your-email@example.com?subject=${subject}&body=${body}`;
