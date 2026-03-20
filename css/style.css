@@ -394,3 +394,37 @@ footer {
     background-color: #111827;
     color: #ffffff;
 }
+
+/* VIDEO SECTION */
+.video-section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+/* REPORT PAGE */
+.report-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 2.5rem;
+    border-radius: 10px;
+    line-height: 1.8;
+}
+
+.report-container h1 {
+    margin-bottom: 1.5rem;
+}
+
+.report-container h2 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
