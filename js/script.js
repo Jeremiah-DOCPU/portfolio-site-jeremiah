@@ -1,5 +1,5 @@
 /*
-    Version 6 JavaScript file
+    Version 7 JavaScript file
 
     In this version, I added functionality for my contact form.
     When the form is submitted, the script takes the values entered
