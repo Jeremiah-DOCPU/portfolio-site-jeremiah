@@ -26,15 +26,60 @@
         </nav>
     </header>
 
-    <!-- Main page content -->
     <main>
-        <section class="content-box">
-            <h2>Contact</h2>
-
+        <!-- 
+            Contact introduction:
+            This gives a quick explanation before the form.
+        -->
+        <section class="contact-intro">
+            <h2>Contact Me</h2>
             <p>
-                This page will later include my contact details and a form that allows
-                visitors to get in touch with me.
+                If you would like to get in touch with me, you can use the form below.
             </p>
+        </section>
+
+        <!-- 
+            Contact form:
+            Each label is correctly connected to an input or textarea
+            using matching for and id values.
+        -->
+        <section class="contact-form-section">
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input 
+                        type="text" 
+                        id="name" 
+                        name="name" 
+                        placeholder="Enter your name" 
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input 
+                        type="email" 
+                        id="email" 
+                        name="email" 
+                        placeholder="Enter your email address" 
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea 
+                        id="message" 
+                        name="message" 
+                        rows="6" 
+                        placeholder="Write your message here" 
+                        required
+                    ></textarea>
+                </div>
+
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
         </section>
     </main>
 
